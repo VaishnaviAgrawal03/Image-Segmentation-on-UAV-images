@@ -77,9 +77,13 @@ U-Net is a popular encoder-decoder convolutional neural network architecture des
 
 ## 🖼️ Sample Results
 
-| Original Image | Ground Truth | Predicted Mask |
-|----------------|--------------|----------------|
 | <img width="1182" height="298" alt="image" src="https://github.com/user-attachments/assets/944eb8b6-e0e5-4c3c-9bd7-7f9323032a1b" />
+<img width="1182" height="298" alt="image" src="https://github.com/user-attachments/assets/2d735135-9bf3-4618-b477-ae176c85bb18" />
+<img width="1182" height="298" alt="image" src="https://github.com/user-attachments/assets/188e4199-a83e-4c84-8132-e3c04f79d568" />
+![Uploading image.png…]()
+
+
+
 
 > Replace these with actual screenshots from your project.
 
