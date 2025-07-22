@@ -8,8 +8,8 @@ This project demonstrates the use of **U-Net**, a convolutional neural network a
 
 The goal of this project is to:
 - Accurately segment buildings in aerial images.
-- Perform pixel-wise classification using deep learning.
-- Apply U-Net for efficient semantic segmentation.
+- Learn pixel-wise classification from RGB images to generate binary masks using deep learning.
+- Leverage the U-Net architecture's encoder-decoder structure for precise segmentation tasks.
 
 ---
 
@@ -20,16 +20,6 @@ U-Net is a popular encoder-decoder convolutional neural network architecture des
 - **Encoder:** Captures context via downsampling.
 - **Decoder:** Enables precise localization via upsampling.
 - **Skip Connections:** Preserve spatial details by linking encoder and decoder layers.
-
----
-
-## 📁 Dataset
-
-**Massachusetts Buildings Dataset**
-- A collection of high-resolution satellite images (1500x1500 px) and their corresponding building masks.
-- Includes over 150 images for training and testing.
-
-📎 [Dataset Source](https://www.cs.toronto.edu/~vmnih/data/)
 
 ---
 
@@ -80,9 +70,6 @@ U-Net is a popular encoder-decoder convolutional neural network architecture des
 | <img width="1182" height="298" alt="image" src="https://github.com/user-attachments/assets/944eb8b6-e0e5-4c3c-9bd7-7f9323032a1b" />
 <img width="1182" height="298" alt="image" src="https://github.com/user-attachments/assets/2d735135-9bf3-4618-b477-ae176c85bb18" />
 <img width="1182" height="298" alt="image" src="https://github.com/user-attachments/assets/188e4199-a83e-4c84-8132-e3c04f79d568" />
-![Uploading image.png…]()
-
-
 
 
 > Replace these with actual screenshots from your project.
@@ -93,6 +80,5 @@ U-Net is a popular encoder-decoder convolutional neural network architecture des
 
 To run this project locally, install the dependencies using:
 
-```bash
 pip install -r requirements.txt
 
