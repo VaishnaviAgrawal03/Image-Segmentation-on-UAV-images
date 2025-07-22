@@ -1,0 +1,10 @@
+ Python
+tensorflow==2.13.0 / Keras
+numpy
+opencv
+matplotlib
+Pillow
+tqdm
+scikit-learn
+
+
